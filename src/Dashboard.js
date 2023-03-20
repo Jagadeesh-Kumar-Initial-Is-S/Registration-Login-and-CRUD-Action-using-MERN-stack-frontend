@@ -303,8 +303,8 @@ export default class Dashboard extends Component {
               component="label"
             > Upload
             <input
-                // id="standard-basic"
-                id="fileInput"
+                id="standard-basic"
+                className="fileInput"
                 type="file"
                 accept="image/*"
                 name="file"
@@ -384,8 +384,8 @@ export default class Dashboard extends Component {
               component="label"
             > Upload
             <input
-                // id="standard-basic"
-                id="fileInput"
+                id="standard-basic"
+                className="fileInput"
                 type="file"
                 accept="image/*"
                 // inputProps={{
